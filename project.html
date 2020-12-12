@@ -77,7 +77,7 @@
         <p><br>Newcastle University</p>
         <p>Soft Engineering<br>Chinatelecom</p>
     <h3><a href="https://ryan623555007.github.io/">Home</a></h3>
-        <h3><a href="https://ryan623555007.github.io/research.html">Project</a></h3>
+        <h3><a href="https://ryan623555007.github.io/research.html">Projects</a></h3>
     <h3><a href="https://ryan623555007.github.io/research/CV.pdf">CV</a></h3>  
         <!-- <h3><a href="https://tyleransom.github.io/code.html">Code</a></h3>  -->
         <!-- <h3><a href="https://tyleransom.github.io/teaching.html">Teaching</a></h3>  -->
@@ -101,24 +101,25 @@
       </header>
       <section>
 
-    <h2><a id="Project" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project &amp; </h2>
+    <h2><a id="Project" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Projects </h2>
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://tyleransom.github.io/research/WagesAcrossCohorts.pdf">Urban Observatory Metadata Knowledge Graph</a> <br> working with <a href="https://sites.google.com/site/paolomissier/"><i> Polo Missier</i></a>  at <a href="https://www.ncl.ac.uk/"><i>Newcastle University</i></a> <br><button class="accordion">
       Abstract
     </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> This paper investigates the wage returns to schooling and actual early work experiences, and how these returns have changed over the past twenty years. Using the NLSY surveys, we develop and estimate a dynamic model of the joint schooling and work decisions that young men make in early adulthood, and quantify how they affect wages using a generalized Mincerian specification. Our results highlight the need to account for dynamic selection and changes in composition when analyzing changes in wage returns. In particular, we find that ignoring the selectivity of accumulated work experiences results in overstatement of the returns to education. </p></div>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> The University of Newcastle has the largest Observatory in UK and astronomical data is open to the public. 357 sensors are installed in the city. However, the credibility of current astronomical data is not high enough, leading some companies to abandon the use of these data. In this project, we try to use the knowledge graph to describe the relationship between metadata and original data to improve the credibility of query result. </p></div>
     <p style="margin:0"><button class="accordion">
-      Replication files
+      Methods
     </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> <a href="https://github.com/tyleransom/WageReturnsJOLE/releases/tag/1.0">Data &amp; code for replication</a> <br> <a href="https://doi.org/10.5281/zenodo.4023126"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4023126.svg" alt="DOI"></a> </p></div>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>We establish a query system to support a closed loop of the whole process, from search to graph. Users can query the knowledge graph and a data description in JSON format. I use regular expressions to clean up astronomical data. Then combined the relationship between data and metadata. Finally, encapsulating the data interface becomes an API open to the public. I try to use the query results to improve users' trust in astronomical data, so that more people can use these data in industrial production. Some companies use the astronomical data to predict future weather. A total of 1.4 billion data were downloaded 7 million times by 2020.</p></div>
+  
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://tyleransom.github.io/research/WagesAcrossCohorts.pdf">Anti harassment AI competition</a>  at Chinatelecom <br><button class="accordion">
+      Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Covid-19 broke out all over the world in 2020. So many companies have to increase telephone sales to maintain revenue. However, this cause more harassing calls. I use machine learning algorithms to predict harassment calls and push reminders to users' mobile phones. </p></div>
     <p style="margin:0"><button class="accordion">
-      Other versions
+      Methods
     </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> <a href="http://www.nber.org/papers/w24160.pdf">NBER Working Paper No. 24160</a> (December 2017) <br> <a href="http://ftp.iza.org/dp11231.pdf">IZA Discussion Paper No. 11231</a> (December 2017) </p></div>
-    <p style="margin:0"><button class="accordion">
-      Media coverage
-    </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> <a href="https://www.marketwatch.com/story/students-who-do-this-during-college-earn-more-money-as-graduates-2018-01-02"><i>MarketWatch</i></a> <br> <a href="https://www.smh.com.au/opinion/working-while-at-high-school-or-university-leads-to-higher-wages-later-in-life-20180126-h0p23d.html"><i>Sydney Morning Herald</i></a> <br> <a href="https://www.studyinternational.com/news/work-university/"><i>Study International</i></a> </p></div><br>
-
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Training set data is 100 million multi classification data, including user coordinates, personal information. In the preliminaries, I tried to use random forest algorithm to classify. Because of the inconsistent distribution of test set and training set, it did not perform well on prediction set. Then I try to use LGB model to adjust the weight of multi classification, and add e-commerce data to improve the quality of features, and the model has achieved good results. In the final, I used the fake tag technique, after several iterations, I finally ranked 30th out of 800.</p></div>
+  
     <hr>
 
     <h2><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a>Works in Progress</h2>
@@ -129,7 +130,7 @@
     <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> We study heterogeneity in the effect of immigrant labor supply on native wages in the United States using quasi-experimental variation induced by the Immigration Act of 1990. The Act quickly and substantially increased the number of immigrant workers in STEM occupations. Using CPS data, we find short-run policy effects of reduced wages for more substitutable workers but increased wages for more complementary workers. We analyze long-term effects of the policy using administrative earnings data and find smaller long-run effects. </p></div><br>
 -->
 
-    <p style="margin:0"> <b>Beating the Heat: Temperature and Spatial Reallocation over the Long Run</b> <br> with <a href="https://www.christosmakridis.com/">Christos Makridis</a>. <br><button class="accordion">
+    <!-- <p style="margin:0"> <b>Beating the Heat: Temperature and Spatial Reallocation over the Long Run</b> <br> with <a href="https://www.christosmakridis.com/">Christos Makridis</a>. <br><button class="accordion">
       Abstract
     </button>
     <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Does temperature affect real economic activity? Using the annual Current Population Survey between 1963 and 2015, we show that there is no association between temperature and earnings, hours, or output after controlling for time-invariant spatial heterogeneity and time-varying demographic factors. These results are robust to five separate sources of micro-data, different sampling horizons, functional forms, spatial measures of temperature, and subsets of the data. This paper studies the relationship between temperature and productivity across space and time. Motivated by these null results, we develop a spatial equilibrium model where temperature can affect not only firm productivity, but also individual locational choice. After calibrating the model, we use it to disentangle the role of reallocation versus actual productivity losses in the U.S. economy between 1980 and 2015. Nearly all of the variation is driven by reallocation. We subsequently use the model to evaluate a counterfactual climate scenario and recover a new spatial equilibrium for the U.S. economy by 2050. </p></div><br>
@@ -139,7 +140,7 @@
     </button>
     <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Coming soon.</p></div><br>
       </section>
-    </div>
+    </div> -->
     <script src="javascripts/scale.fix.js"></script>
     <script> 
     var acc = document.getElementsByClassName("accordion");
